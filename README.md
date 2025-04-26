@@ -1,2 +1,2 @@
 # NetKeeper
-Ping ip then restart net.
+Ping ip if fail then restart net.
