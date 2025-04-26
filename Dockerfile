@@ -1,6 +1,6 @@
 FROM busybox:glibc
 
-ENV TARGET=8.8.8.8
+ENV TARGET=1.1.1.1
 ENV INTERVAL=5
 
 COPY --from=alexeiled/nsenter /nsenter /nsenter
