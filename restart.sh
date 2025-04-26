@@ -1,6 +1,6 @@
 #!/bin/sh
 
-: "${TARGET:=8.8.8.8}"
+: "${TARGET:=1.1.1.1}"
 : "${INTERVAL:=5}"
 
 NSE="/nsenter --target 1 --mount --uts --ipc --net --pid"
